@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Background rounded square -->
+  <rect width="64" height="64" rx="14" fill="#0d1117"/>
+
+  <!-- Gavel head (rotated ~-45deg, top-right) -->
+  <rect x="32" y="10" width="20" height="10" rx="3"
+        fill="url(#gold)" transform="rotate(-45 42 15)"/>
+
+  <!-- Gavel handle -->
+  <rect x="10" y="40" width="28" height="7" rx="3.5"
+        fill="url(#gold)" transform="rotate(-45 24 43.5)"/>
+
+  <!-- Strike lines (speed marks) -->
+  <line x1="47" y1="38" x2="54" y2="38" stroke="#C9A84C" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <line x1="45" y1="44" x2="54" y2="44" stroke="#C9A84C" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+  <line x1="47" y1="50" x2="54" y2="50" stroke="#C9A84C" stroke-width="2.5" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- Sound-wave / bid arc -->
+  <path d="M10 56 Q32 48 54 56" stroke="#C9A84C" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#f0d060"/>
+      <stop offset="50%"  stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="#8a6420"/>
+    </linearGradient>
+  </defs>
+</svg>
